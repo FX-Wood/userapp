@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "userapp",
-    "password": "userapp",
-    "database": "database_development",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "userapp",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "userapp",
-    "password": "userapp",
-    "database": "database_test",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "userapp",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "userapp",
-    "password": "userapp",
-    "database": "database_production",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "userapp",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
