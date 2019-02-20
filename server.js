@@ -8,9 +8,39 @@ var db = require('./models');
 
 // Create
 
-db.user.create({
-    firstName: 'Steve',
-    lastName: 'Peters',
-    age: 99
+// db.user.create({
+//     firstname: 'Mike',
+//     lastname: 'Shull',
+//     age: 103
+// })
+// .then(function(data) {
+//     // console.log(data);
+// });
+
+// // READ ONE
+
+// db.user.find({
+//     where: {id: 1}
+// })
+// .then(function(user) {
+//     // console.log(user);
+// })
+
+// READ ALL
+
+// db.user.findAll().then(function(users) {
+//     console.log(users);
+//     res.json(users)
+// });
+
+// Update
+
+db.user.update({
+    firstname: 'Steve',
+    lastname: 'Taco'
+}, {
+    where: {id: '1'}
 })
-.then()
+.then(function(user) {
+    console.log(user)
+})
